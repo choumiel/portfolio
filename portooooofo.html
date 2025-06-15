@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Ton Nom</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background-color: #444;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 1rem;
+      display: inline-block;
+      padding: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img, .gallery video {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ton Nom</h1>
+    <p>Portfolio – Design | Photo | Vidéo</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#design">Design</a>
+    <a href="#photo">Photo</a>
+    <a href="#video">Vidéo</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis un(e) créatif(ve) passionné(e) par le design, la photographie et la vidéo. Ceci est mon premier portfolio, il présente quelques-unes de mes créations.</p>
+  </section>
+
+  <section id="design">
+    <h2>Design</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Design+1" alt="Design 1">
+      <img src="https://via.placeholder.com/300x200?text=Design+2" alt="Design 2">
+    </div>
+  </section>
+
+  <section id="photo">
+    <h2>Photo</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Photo+1" alt="Photo 1">
+      <img src="https://via.placeholder.com/300x200?text=Photo+2" alt="Photo 2">
+    </div>
+  </section>
+
+  <section id="video">
+    <h2>Vidéo</h2>
+    <div class="gallery">
+      <video controls>
+        <source src="tonlienvideo.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas les vidéos HTML5.
+      </video>
+      <video controls>
+        <source src="tonlienvideo2.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas les vidéos HTML5.
+      </video>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : tonemail@example.com</p>
+    <p>Instagram : @tonpseudo</p>
+    <p>LinkedIn : linkedin.com/in/tonprofil</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ton Nom – Portfolio personnel</p>
+  </footer>
+</body>
+</html>
+
